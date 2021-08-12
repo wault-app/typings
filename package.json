@@ -1,0 +1,26 @@
+{
+  "name": "@wault/typings",
+  "version": "1.0.0",
+  "description": "Types to make cross-platform developement easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wault-app/typings.git"
+  },
+  "keywords": [
+    "types",
+    "typscript"
+  ],
+  "author": "Gál Péter (pepyta)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wault-app/typings/issues"
+  },
+  "homepage": "https://github.com/wault-app/typings#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

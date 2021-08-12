@@ -1,6 +1,6 @@
 import { DeviceType } from "./Device";
 import { UserType } from "./User";
 
-type SessionTokenType = UserType & {
+export type SessionTokenType = UserType & {
     device: DeviceType;
 };

@@ -5,3 +5,8 @@ export type DeviceType = {
     rsaKey: string;
     type: "MOBILE" | "BROWSER" | "DESKTOP" | "CLI";
 };
+
+export type RemoteDeviceType = {
+    id: string;
+    rsaKey: string;
+};

@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Category = void 0;
 var categories = {
     work: {
         name: "Work",
@@ -38,4 +35,4 @@ var Category = /** @class */ (function () {
     };
     return Category;
 }());
-exports.Category = Category;
+export { Category };

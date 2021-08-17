@@ -24,6 +24,7 @@ export declare type CreditCardType = {
     expiry?: string;
     cvc?: string;
     description?: string;
+    categories?: CategoryType[];
 };
 export declare type ItemType = AccountType | CreditCardType;
 export declare type AccountTypeWithoutID = Omit<AccountType, "id">;

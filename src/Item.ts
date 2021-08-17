@@ -27,6 +27,7 @@ export type CreditCardType = {
     expiry?: string;
     cvc?: string;
     description?: string;
+    categories?: CategoryType[];
 };
 
 export type ItemType = AccountType | CreditCardType;

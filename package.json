@@ -2,8 +2,10 @@
   "name": "@wault/typings",
   "version": "1.0.0",
   "description": "Types to make cross-platform developement easier",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/wault-app/typings#readme",
   "devDependencies": {
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@wault/category": "git+https://github.com/wault-app/category.git"
   }
 }

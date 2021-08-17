@@ -1,7 +1,6 @@
 {
   "name": "@wault/typings",
   "version": "1.0.0",
-  "type": "module",
   "description": "Types to make cross-platform developement easier",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

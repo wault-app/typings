@@ -2,6 +2,7 @@
   "name": "@wault/typings",
   "version": "1.0.0",
   "description": "Types to make cross-platform developement easier",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

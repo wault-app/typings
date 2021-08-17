@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Category = void 0;
 var categories = {
     work: {
         name: "Work",
@@ -26,15 +27,15 @@ var categories = {
         name: "Education",
     },
 };
-var Categories = /** @class */ (function () {
-    function Categories() {
+var Category = /** @class */ (function () {
+    function Category() {
     }
-    Categories.get = function (category) {
+    Category.get = function (category) {
         return categories[category];
     };
-    Categories.getAll = function () {
+    Category.getAll = function () {
         return categories;
     };
-    return Categories;
+    return Category;
 }());
-exports.default = Categories;
+exports.Category = Category;

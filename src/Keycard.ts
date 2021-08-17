@@ -19,7 +19,9 @@ export type RemoteKeycardType = {
 export type EncryptedSafeType = {
     id: string;
     name: string;
+    description?: string;
     items: EncryptedItemType[];
+    keycards: RemoteKeycardType[];
 };
 
 export type EncryptedKeycardType = {

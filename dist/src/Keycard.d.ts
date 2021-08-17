@@ -15,7 +15,9 @@ export declare type RemoteKeycardType = {
 export declare type EncryptedSafeType = {
     id: string;
     name: string;
+    description?: string;
     items: EncryptedItemType[];
+    keycards: RemoteKeycardType[];
 };
 export declare type EncryptedKeycardType = {
     id: string;

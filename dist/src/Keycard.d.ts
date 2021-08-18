@@ -1,16 +1,17 @@
 import { EncryptedItemType } from "./Item";
 import { SafeType } from "./Safe";
-import { RemoteUserType } from "./User";
+import { UserType } from "./User";
 export declare type RoleType = "OWNER" | "WRITER" | "READER";
 export declare type KeycardType = {
     id: string;
+    secret: string;
     safe: SafeType;
     role: RoleType;
 };
 export declare type RemoteKeycardType = {
     id: string;
     role: RoleType;
-    user: RemoteUserType;
+    user: UserType;
 };
 export declare type EncryptedSafeType = {
     id: string;
@@ -21,6 +22,7 @@ export declare type EncryptedSafeType = {
 };
 export declare type EncryptedKeycardType = {
     id: string;
+    secret: string;
     safe: EncryptedSafeType;
     role: RoleType;
 };

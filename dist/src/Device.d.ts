@@ -5,8 +5,4 @@ export declare type DeviceType = {
     rsaKey: string;
     type: "MOBILE" | "BROWSER" | "DESKTOP" | "CLI";
 };
-export declare type RemoteDeviceType = {
-    id: string;
-    rsaKey: string;
-};
 //# sourceMappingURL=Device.d.ts.map

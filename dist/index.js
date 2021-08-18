@@ -14,7 +14,6 @@ __exportStar(require("./src/Category"), exports);
 __exportStar(require("./src/Device"), exports);
 __exportStar(require("./src/Item"), exports);
 __exportStar(require("./src/Keycard"), exports);
-__exportStar(require("./src/KeyExchange"), exports);
 __exportStar(require("./src/Platform"), exports);
 __exportStar(require("./src/Safe"), exports);
 __exportStar(require("./src/SessionToken"), exports);

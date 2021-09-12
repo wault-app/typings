@@ -16,5 +16,5 @@ __exportStar(require("./src/Item"), exports);
 __exportStar(require("./src/Keycard"), exports);
 __exportStar(require("./src/Platform"), exports);
 __exportStar(require("./src/Safe"), exports);
-__exportStar(require("./src/SessionToken"), exports);
+__exportStar(require("./src/AccessToken"), exports);
 __exportStar(require("./src/User"), exports);

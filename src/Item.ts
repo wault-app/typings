@@ -30,9 +30,17 @@ export type CreditCardType = {
     categories?: CategoryType[];
 };
 
-export type ItemType = AccountType | CreditCardType;
+export type WalletType = {
+    id: string;
+    type: "wallet";
+    blockchain: "ethereum";
+    privateKey: string;
+};
+
+export type ItemType = AccountType | CreditCardType | WalletType;
 
 export type AccountTypeWithoutID = Omit<AccountType, "id">;
 export type CreditCardTypeWithoutID = Omit<CreditCardType, "id">;
-export type ItemTypeWithoutID = AccountTypeWithoutID | CreditCardTypeWithoutID;
+export type WalletTypeWithoutID = Omit<WalletType, "id">;
+export type ItemTypeWithoutID = AccountTypeWithoutID | CreditCardTypeWithoutID | WalletTypeWithoutID;
 

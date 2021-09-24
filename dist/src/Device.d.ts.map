@@ -1,1 +1,1 @@
-{"version":3,"file":"Device.d.ts","sourceRoot":"","sources":["../../src/Device.ts"],"names":[],"mappings":"AAAA,oBAAY,UAAU,GAAG;IACrB,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,UAAU,EAAE,MAAM,CAAC;IACnB,MAAM,EAAE,MAAM,CAAC;IACf,IAAI,EAAE,QAAQ,GAAG,SAAS,GAAG,SAAS,GAAG,KAAK,CAAC;CAClD,CAAC"}
+{"version":3,"file":"Device.d.ts","sourceRoot":"","sources":["../../src/Device.ts"],"names":[],"mappings":"AAAA,oBAAY,UAAU,GAAG;IACrB,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,UAAU,EAAE,MAAM,CAAC;IACnB,IAAI,EAAE,QAAQ,GAAG,SAAS,GAAG,SAAS,GAAG,KAAK,CAAC;CAClD,CAAC"}

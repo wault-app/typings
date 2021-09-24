@@ -26,8 +26,15 @@ export declare type CreditCardType = {
     description?: string;
     categories?: CategoryType[];
 };
-export declare type ItemType = AccountType | CreditCardType;
+export declare type WalletType = {
+    id: string;
+    type: "wallet";
+    blockchain: "ethereum";
+    privateKey: string;
+};
+export declare type ItemType = AccountType | CreditCardType | WalletType;
 export declare type AccountTypeWithoutID = Omit<AccountType, "id">;
 export declare type CreditCardTypeWithoutID = Omit<CreditCardType, "id">;
-export declare type ItemTypeWithoutID = AccountTypeWithoutID | CreditCardTypeWithoutID;
+export declare type WalletTypeWithoutID = Omit<WalletType, "id">;
+export declare type ItemTypeWithoutID = AccountTypeWithoutID | CreditCardTypeWithoutID | WalletTypeWithoutID;
 //# sourceMappingURL=Item.d.ts.map

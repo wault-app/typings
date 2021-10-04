@@ -28,6 +28,7 @@ export declare type CreditCardType = {
 };
 export declare type WalletType = {
     id: string;
+    name: string;
     type: "wallet";
     blockchain: "ethereum";
     privateKey: string;
